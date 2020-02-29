@@ -240,15 +240,7 @@ def banner():
     
     clr()
     logo="""                                                  
-   ████████ ██████                 ██             
-   ▒▒▒██▒▒▒ ██▒▒▒██                ██             
-      ██    ██   ██  ████  ██   ██ ██             
-      ██    ██████▒ ██▒▒██ ███ ███ █████          
-      ██    ██▒▒▒██ ██  ██ ██▒█▒██ ██▒▒██         
-      ██    ██   ██ ██  ██ ██ ▒ ██ ██  ██         
-      ██    ██████▒ ▒████▒ ██   ██ █████▒         
-      ▒▒    ▒▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒          
-                                         """
+  
     print(random.choice(colors)+logo+W)
     print("\n")
 
@@ -588,7 +580,7 @@ if not cc.strip() == "91":
     ch = [0, 14, 15, 16]
     start(pn, nm, dl, ch, str(cc))
     exit()
-ch = [i for i in range(17)]
+ch = [i for i in range(70)]
 cbomb = False
 if pn.strip() == '' or dl <= 0 or nm < 0:
     print('\n\n\tSeems Like You Have Given Wrong Inputs...')
